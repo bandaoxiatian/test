@@ -8,3 +8,4 @@
     *5. change on dev..
     *n. change on master..
     *n+2. 这样对模块化开发很有帮助..
+    *n+3. another guy join in.
