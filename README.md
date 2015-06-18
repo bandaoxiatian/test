@@ -5,8 +5,6 @@
     *2.push到远程服务器
     *3.==============
     *4. i'll delete the sentence soon~~
-<<<<<<< HEAD
     *5. change on dev..
-=======
     *n. change on master..
->>>>>>> master
+    *n+2. 这样对模块化开发很有帮助..
