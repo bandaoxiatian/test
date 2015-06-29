@@ -10,6 +10,7 @@
 		1719ADEF1AF51A78008EC615 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1719ADEE1AF51A78008EC615 /* images */; };
 		172DEE191B2BE1EC00708A9A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172DEE171B2BE1EC00708A9A /* Fabric.framework */; };
 		172DEE1A1B2BE1EC00708A9A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172DEE181B2BE1EC00708A9A /* Crashlytics.framework */; };
+		176AB96D1B41361F00825431 /* ZanShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AB96C1B41361F00825431 /* ZanShiViewController.m */; };
 		177460271B25D23E00D619F5 /* CustomTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 177460261B25D23E00D619F5 /* CustomTabBarButton.m */; };
 		17C8B2A91ADFADC1008A6EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2A81ADFADC1008A6EEA /* main.m */; };
 		17C8B2AC1ADFADC1008A6EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2AB1ADFADC1008A6EEA /* AppDelegate.m */; };
@@ -35,6 +36,8 @@
 		1719ADEE1AF51A78008EC615 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../images; sourceTree = "<group>"; };
 		172DEE171B2BE1EC00708A9A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		172DEE181B2BE1EC00708A9A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		176AB96B1B41361F00825431 /* ZanShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZanShiViewController.h; sourceTree = "<group>"; };
+		176AB96C1B41361F00825431 /* ZanShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZanShiViewController.m; sourceTree = "<group>"; };
 		177460251B25D23E00D619F5 /* CustomTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarButton.h; sourceTree = "<group>"; };
 		177460261B25D23E00D619F5 /* CustomTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarButton.m; sourceTree = "<group>"; };
 		17C8B2A31ADFADC1008A6EEA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		176AB96A1B4135FE00825431 /* zanshi */ = {
+			isa = PBXGroup;
+			children = (
+				176AB96B1B41361F00825431 /* ZanShiViewController.h */,
+				176AB96C1B41361F00825431 /* ZanShiViewController.m */,
+			);
+			name = zanshi;
+			sourceTree = "<group>";
+		};
 		17C8B29A1ADFADC1008A6EEA = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		17C8B2A51ADFADC1008A6EEA /* test */ = {
 			isa = PBXGroup;
 			children = (
+				176AB96A1B4135FE00825431 /* zanshi */,
 				172DEE171B2BE1EC00708A9A /* Fabric.framework */,
 				172DEE181B2BE1EC00708A9A /* Crashlytics.framework */,
 				1719ADEE1AF51A78008EC615 /* images */,
@@ -313,6 +326,7 @@
 				17C8B2AC1ADFADC1008A6EEA /* AppDelegate.m in Sources */,
 				177460271B25D23E00D619F5 /* CustomTabBarButton.m in Sources */,
 				17C8B2A91ADFADC1008A6EEA /* main.m in Sources */,
+				176AB96D1B41361F00825431 /* ZanShiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
