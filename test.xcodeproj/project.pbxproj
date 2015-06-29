@@ -11,6 +11,7 @@
 		172DEE191B2BE1EC00708A9A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172DEE171B2BE1EC00708A9A /* Fabric.framework */; };
 		172DEE1A1B2BE1EC00708A9A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172DEE181B2BE1EC00708A9A /* Crashlytics.framework */; };
 		176AB96D1B41361F00825431 /* ZanShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AB96C1B41361F00825431 /* ZanShiViewController.m */; };
+		176AB9711B413B6000825431 /* ASDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AB9701B413B6000825431 /* ASDViewController.m */; };
 		177460271B25D23E00D619F5 /* CustomTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 177460261B25D23E00D619F5 /* CustomTabBarButton.m */; };
 		17C8B2A91ADFADC1008A6EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2A81ADFADC1008A6EEA /* main.m */; };
 		17C8B2AC1ADFADC1008A6EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2AB1ADFADC1008A6EEA /* AppDelegate.m */; };
@@ -38,6 +39,8 @@
 		172DEE181B2BE1EC00708A9A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		176AB96B1B41361F00825431 /* ZanShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZanShiViewController.h; sourceTree = "<group>"; };
 		176AB96C1B41361F00825431 /* ZanShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZanShiViewController.m; sourceTree = "<group>"; };
+		176AB96F1B413B6000825431 /* ASDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDViewController.h; sourceTree = "<group>"; };
+		176AB9701B413B6000825431 /* ASDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDViewController.m; sourceTree = "<group>"; };
 		177460251B25D23E00D619F5 /* CustomTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarButton.h; sourceTree = "<group>"; };
 		177460261B25D23E00D619F5 /* CustomTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarButton.m; sourceTree = "<group>"; };
 		17C8B2A31ADFADC1008A6EEA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +91,15 @@
 			name = zanshi;
 			sourceTree = "<group>";
 		};
+		176AB96E1B413B3A00825431 /* asd */ = {
+			isa = PBXGroup;
+			children = (
+				176AB96F1B413B6000825431 /* ASDViewController.h */,
+				176AB9701B413B6000825431 /* ASDViewController.m */,
+			);
+			path = asd;
+			sourceTree = "<group>";
+		};
 		17C8B29A1ADFADC1008A6EEA = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 		17C8B2A51ADFADC1008A6EEA /* test */ = {
 			isa = PBXGroup;
 			children = (
+				176AB96E1B413B3A00825431 /* asd */,
 				176AB96A1B4135FE00825431 /* zanshi */,
 				172DEE171B2BE1EC00708A9A /* Fabric.framework */,
 				172DEE181B2BE1EC00708A9A /* Crashlytics.framework */,
@@ -325,6 +338,7 @@
 				17C8B2AF1ADFADC1008A6EEA /* ViewController.m in Sources */,
 				17C8B2AC1ADFADC1008A6EEA /* AppDelegate.m in Sources */,
 				177460271B25D23E00D619F5 /* CustomTabBarButton.m in Sources */,
+				176AB9711B413B6000825431 /* ASDViewController.m in Sources */,
 				17C8B2A91ADFADC1008A6EEA /* main.m in Sources */,
 				176AB96D1B41361F00825431 /* ZanShiViewController.m in Sources */,
 			);
