@@ -13,6 +13,7 @@
 		176AB96D1B41361F00825431 /* ZanShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AB96C1B41361F00825431 /* ZanShiViewController.m */; };
 		176AB9711B413B6000825431 /* ASDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AB9701B413B6000825431 /* ASDViewController.m */; };
 		177460271B25D23E00D619F5 /* CustomTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 177460261B25D23E00D619F5 /* CustomTabBarButton.m */; };
+		179CF99D1B42EBDD0030F9D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CF99C1B42EBDD0030F9D4 /* QuartzCore.framework */; };
 		17C8B2A91ADFADC1008A6EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2A81ADFADC1008A6EEA /* main.m */; };
 		17C8B2AC1ADFADC1008A6EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2AB1ADFADC1008A6EEA /* AppDelegate.m */; };
 		17C8B2AF1ADFADC1008A6EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2AE1ADFADC1008A6EEA /* ViewController.m */; };
@@ -43,6 +44,7 @@
 		176AB9701B413B6000825431 /* ASDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDViewController.m; sourceTree = "<group>"; };
 		177460251B25D23E00D619F5 /* CustomTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarButton.h; sourceTree = "<group>"; };
 		177460261B25D23E00D619F5 /* CustomTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarButton.m; sourceTree = "<group>"; };
+		179CF99C1B42EBDD0030F9D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17C8B2A31ADFADC1008A6EEA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C8B2A71ADFADC1008A6EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17C8B2A81ADFADC1008A6EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179CF99D1B42EBDD0030F9D4 /* QuartzCore.framework in Frameworks */,
 				60C33B67F519AB8078329914 /* libPods.a in Frameworks */,
 				172DEE1A1B2BE1EC00708A9A /* Crashlytics.framework in Frameworks */,
 				172DEE191B2BE1EC00708A9A /* Fabric.framework in Frameworks */,
@@ -171,6 +174,7 @@
 		1E399A0DE044F8AA51CE9089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				179CF99C1B42EBDD0030F9D4 /* QuartzCore.framework */,
 				2D209DE49BED84BD88EA6680 /* libPods.a */,
 			);
 			name = Frameworks;
